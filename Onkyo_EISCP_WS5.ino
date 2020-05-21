@@ -6,8 +6,8 @@
 #include <WebSocketsServer.h>
 #include <WiFiManager.h> 
 
-const char* ssid     = "RobO"; //Change this value for your network
-const char* password = "ROB09210001"; //Change this value for your network
+const char* ssid     = "SSID"; //Change this value for your network
+const char* password = "*******"; //Change this value for your network
 char* onkyoadress = "192.168.10.241"; // Onkyo Receiver
 int OnkyoPort = 60128;
 
