@@ -1,9 +1,8 @@
 # OnkyoSocket-ESP8266-bridge
 Bridge between Onkyo ISCP and Toon Websockets based on Wemos ESP8266
 
-to install the websockets on toon:
+This version uses the websockets from Toon. These are installed in the newest firmwares. Please update your rooted Toon first.
 
-udate-rooted.sh -o
- opkg update
- opkg install libqt5websockets5
- reboot
+Download your flashtool here:  https://github.com/igrr/esptool-ck/releases/tag/0.4.13
+
+If your Wemos is not new, please first flash the blank 4MB file.
